@@ -1,0 +1,504 @@
+.nav{  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    height: auto;
+    width:100%; 
+    position: fixed;
+    background-color: white;
+    margin-top:-20px;
+   ;
+  }
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    list-style: none; 
+   text-transform:uppercase ;
+  }
+  a {  color:hotpink;
+    text-decoration: none;
+  }
+  .nav :hover{  
+  color: black;
+  }
+  
+  .hero {  
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 520px;
+    width: 100%;
+  text-align: center;
+    padding-top: 200px;
+    }
+    .hero-content { 
+      color: #ffffff;
+      display: table-cell;
+    text-align: center;
+    padding-top: 50px;
+      
+    }
+    
+    .hero-content h1 {
+      width: 100%;
+      padding: 0 15px;
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+      margin: 0 auto;
+      text-transform: uppercase;
+    }
+    
+    .hero-content p {
+      padding: 0 15px;
+      margin: 30px auto 0;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    
+    .hero-content .hero-job {
+      font-size: 18px;
+    }
+    
+    .hero-content .hero-job span {
+      padding-bottom: 5px;
+      border-bottom: 1px solid #ffffff;
+    }
+    
+    .hero-content .hero-job-desc {
+      font-size: 14px;
+      max-width: 700px;
+    }
+    img { border-radius: 50%;
+      width: 39%;
+       border: 2px solid hsl(330, 100%, 71%);
+      
+      }
+      .image {padding-top: 50px; 
+        justify-content: center;
+        display: flex;
+  
+      }
+  
+      h3 { text-decoration: underline whitesmoke;
+        font-size: 30px;
+        color:hotpink;
+      }
+      .box { 
+        justify-content: center;
+      display: flex;
+      text-align: center;
+      padding-top: 50px;
+      
+      }
+      .box div { padding: 9px;
+        border: 2px #ccc solid;
+        flex-basis: 300px;
+        height: 280px;
+       color: #ffffff;
+      }
+      .box p{
+       font-size: 20px;
+      }
+      .About{
+        background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+        background-size: cover;
+      }
+      #Login{  background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+        background-size: cover;
+        ;
+          padding-top: 40px;
+      } 
+  
+      .form {width: 400px;
+        border: 1px solid rgba(255, 255, 255, .75);
+        background: transparent;
+       }
+    
+        h2 { font-size: 40px;
+          text-align: center;
+          font-weight: 100;
+          color: hotpink;
+          margin-bottom: .5em;
+        }
+        input {
+        color: #ffffff;  
+      width: 20rem;
+      border: 1px solid rgba(255, 255, 255, .75);
+      background: transparent;
+      font-size: 1rem;
+      border-radius: .65em;
+      text-align: center;
+        }
+    .btnn { 
+        color: rgba(255, 255, 255, 1);
+      width: 7em;
+     font-weight: 100;
+      font-size: 1.5rem;
+      border: 1px solid rgba(255, 255, 255, .75);
+      background: transparent;
+      transition: all 200ms ease-in;
+      border-radius: .65em;
+    }
+    .button { padding-left: 120px;
+        padding-top: 20px;
+    }
+      .login { text-align: center;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 100;
+        font-size: 1.75em;
+        transition: all 200ms ease-in;
+        border-radius: .65em;}
+        .button :hover{
+               background-color: #ccc;
+        }
+        .signup {
+          text-align: center;
+            font-size: 0.5em;
+         
+            left: 1.5em;
+          }
+      p{ color:white;
+          font-size: 30px;
+      }
+      .social-media {font-size: 20px;
+        display: flex;
+        align-items: center;
+       justify-content: flex-end;
+        list-style: none;
+       justify-content: space-evenly;
+       padding-bottom: 20px;
+      }
+    
+    a :hover {
+    color:white;
+      } 
+  
+      #Register{ 
+        padding-top: 40px;
+    
+    background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+      background-size: cover;}
+    
+    .Reg { text-align: center;
+      color: rgba(255, 255, 255, 1);
+      font-weight: 100;
+      font-size: 1.75em;
+      transition: all 200ms ease-in;
+      border-radius: .65em;
+    padding-bottom: 20px;}
+      select {
+        color: #ffffff;  
+        width: 20rem;
+        border: 1px solid rgba(255, 255, 255, .75);
+        background: transparent;
+        font-size: 1rem;
+        border-radius: .65em;
+        text-align: center;
+      }
+      option{ 
+        color:black;
+      }
+      
+    .regi :hover{
+      color:#ffffff;
+    }
+    .button2 :hover{
+      background-color: #ccc;
+    }
+    .btnn2 { 
+      color: rgba(255, 255, 255, 1);
+    width: 7em;
+    font-weight: 100;
+    font-size: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, .75);
+    background: transparent;
+    transition: all 200ms ease-in;
+    border-radius: .65em;
+    }
+    .button2 { padding-left: 110px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+    .Contact-2{ 
+      padding-top: 40px;     
+      background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+      background-size: cover;
+  }
+  
+  .Contact{ text-align: center;
+    
+    color: rgba(255, 255, 255, 1);
+    font-weight: 100;
+    font-size: 1.75em;
+    transition: all 200ms ease-in;
+    border-radius: .65em;
+  padding-bottom: 20px;}
+  .footer{ text-align: center;
+    background-color: #ccc;
+    background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+      background-size: cover;
+  }
+  .top-link{ color:hotpink;
+  display: flex;
+  justify-content: flex-end;
+    border-radius: 50%;
+    font-size: 40px;
+  }
+  .top-link :hover{
+    color:black;
+  }
+  #Message {
+    height: 5px;
+  }
+  
+  @media screen and (min-width: 800px) 
+  {
+  .nav{ margin-top:-7px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+  height: auto;
+  width:100%; 
+  position: fixed;
+  background-color: white;
+  }
+  .nav-bar { display:flex;
+    justify-content: flex-end;
+   list-style: none; 
+   text-transform:uppercase ;
+  justify-content: space-around;
+  }
+  a {  color:hotpink;
+     text-decoration: none;
+  }
+  .nav :hover{  
+  color: black;
+  }
+  
+  .hero {  
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 520px;
+    width: 70%;
+   padding-left:  400px;
+    padding-top: 200px;
+    }
+  
+    .hero-content { 
+      color: #ffffff;
+      display: table-cell;
+    text-align: center;
+    padding-top: 50px;
+      
+    }
+    
+    .hero-content h1 {
+      width: 100%;
+      padding: 0 15px;
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+      margin: 0 auto;
+      text-transform: uppercase;
+    }
+    
+    .hero-content p {
+      padding: 0 15px;
+      margin: 30px auto 0;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    
+    .hero-content .hero-job {
+      font-size: 18px;
+    }
+    
+    .hero-content .hero-job span {
+      padding-bottom: 5px;
+      border-bottom: 1px solid #ffffff;
+    }
+    
+    .hero-content .hero-job-desc {
+      font-size: 14px;
+      max-width: 700px;
+    }
+    
+    img { border-radius: 50%;
+      width: 15%;
+       border: 2px solid hsl(330, 100%, 71%);
+      
+      }
+      .image {padding-top: 50px; 
+        justify-content: center;
+        display: flex;
+  
+      }
+  h3 { text-decoration: underline whitesmoke;
+    font-size: 30px;
+    color:hotpink;
+  }
+  .box { 
+    justify-content: center;
+  display: flex;
+  text-align: center;
+  padding-top: 50px;
+  
+  }
+  .box div { padding: 9px;
+    border: 2px #ccc solid;
+    flex-basis: 300px;
+    height: 200px;
+   color: #ffffff;
+  }
+  .box p{
+   font-size: 20px;
+  }
+  /*.background {
+    background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+    background-size: cover;
+  }*/
+  .About{
+    background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+    background-size: cover;
+  }
+  #Login{  background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+    background-size: cover;
+     padding-left: 400px;
+      padding-top: 40px;
+  }
+  .form {width: 500px;
+      border: 1px solid rgba(255, 255, 255, .75);
+      background: transparent;
+     }
+  
+      h2 { font-size: 40px;
+        text-align: center;
+        font-weight: 100;
+        color: hotpink;
+        margin-bottom: .5em;
+      }
+      input {
+      color: #ffffff;  
+    width: 20rem;
+    border: 1px solid rgba(255, 255, 255, .75);
+    background: transparent;
+    font-size: 1rem;
+    border-radius: .65em;
+    text-align: center;
+      }
+  .btnn { 
+      color: rgba(255, 255, 255, 1);
+    width: 7em;
+   font-weight: 100;
+    font-size: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, .75);
+    background: transparent;
+    transition: all 200ms ease-in;
+    border-radius: .65em;
+  }
+  .button { padding-left: 170px;
+      padding-top: 20px;
+  }
+    .login { text-align: center;
+      color: rgba(255, 255, 255, 1);
+      font-weight: 100;
+      font-size: 1.75em;
+      transition: all 200ms ease-in;
+      border-radius: .65em;}
+      .button :hover{
+             background-color: #ccc;
+      }
+      .signup {
+        text-align: center;
+          font-size: 0.5em;
+        left: 1.5em;
+        }
+    p{ color:white;
+        font-size: 30px;
+    }
+    .social-media {font-size: 20px;
+      display: flex;
+      align-items: center;
+     justify-content: flex-end;
+      list-style: none;
+     justify-content: space-evenly;
+     padding-bottom: 20px;
+    }
+  
+  a :hover {
+  color:white;
+    }
+  
+    #Register{  padding-left: 400px;
+      padding-top: 40px;
+  
+  background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+    background-size: cover;}
+  
+  .Reg { text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 100;
+    font-size: 1.75em;
+    transition: all 200ms ease-in;
+    border-radius: .65em;
+  padding-bottom: 20px;}
+    select {
+      color: #ffffff;  
+      width: 20rem;
+      border: 1px solid rgba(255, 255, 255, .75);
+      background: transparent;
+      font-size: 1rem;
+      border-radius: .65em;
+      text-align: center;
+    }
+    option{ 
+      color:black;
+    }
+    .Contact-2{  padding-left: 400px;
+      padding-top: 40px;     
+      background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+      background-size: cover;
+  }
+  .regi :hover{
+    color:#ffffff;
+  }
+  .Contact{ text-align: center;
+    
+    color: rgba(255, 255, 255, 1);
+    font-weight: 100;
+    font-size: 1.75em;
+    transition: all 200ms ease-in;
+    border-radius: .65em;
+  padding-bottom: 20px;}
+  .footer{ text-align: center;
+    background-color: #ccc;
+    background-image: url(isai-ramos-_3SFFsWqCVg-unsplash.jpg); 
+      background-size: cover;
+  }
+  .top-link{ color:hotpink;
+  display: flex;
+  justify-content: flex-end;
+    border-radius: 50%;
+    font-size: 40px;
+  }
+  .top-link :hover{
+    color:black;
+  }
+  .button2 :hover{
+    background-color: #ccc;
+  }
+  .btnn2 { 
+    color: rgba(255, 255, 255, 1);
+  width: 7em;
+  font-weight: 100;
+  font-size: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, .75);
+  background: transparent;
+  transition: all 200ms ease-in;
+  border-radius: .65em;
+  }
+  .button2 { padding-left: 170px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  #Message {
+    height:40px;
+  }
+  }
